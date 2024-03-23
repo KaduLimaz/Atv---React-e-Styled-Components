@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import img from "../../assets/01.jpeg";
 
 export const Banner = styled.div`
   height: 70vh;
