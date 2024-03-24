@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: rgb(33, 37, 41);
+        background-color: aliceblue;
         color: rgb(222, 226, 230);
     }
 `;

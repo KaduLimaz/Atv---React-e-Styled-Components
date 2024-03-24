@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import img from "../../assets/01.jpeg";
 
-export const Banner = styled.div`
-  height: 70vh;
+export const Contato = styled.div`
+  height: 30vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     ${`url(${img})`};
 
@@ -11,7 +11,6 @@ export const Banner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 5rem; */
 
   div {
     width: 80%;

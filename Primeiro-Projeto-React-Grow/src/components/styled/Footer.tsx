@@ -1,21 +1,15 @@
 import styled from "styled-components";
-import img from "../../assets/01.jpeg";
 
-export const Banner = styled.div`
-  height: 70vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    ${`url(${img})`};
-
-  background-size: cover;
-  background-position: center;
+export const Footer = styled.div`
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 5rem; */
 
   div {
     width: 80%;
     text-align: center;
+    color: black;
 
     h1 {
       font-size: calc(1.375rem + 1.5vw);
